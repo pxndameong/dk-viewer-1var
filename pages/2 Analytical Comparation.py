@@ -271,6 +271,7 @@ def plot_comparative_charts_monthly(tahun_start: int, bulan_start: int, tahun_en
     bar_color_map = { 
         'Ground Truth (Rainfall)': 'saddlebrown', 
         'Prediksi (0 Variabel)': 'royalblue', 
+        'Prediksi (1 Variabel)': 'mediumorchid',
         'Prediksi (10 Variabel)': 'deeppink', 
         'Prediksi (51 Variabel)': 'forestgreen' 
     } 
@@ -311,6 +312,7 @@ def plot_comparative_charts_monthly(tahun_start: int, bulan_start: int, tahun_en
     
     scatter_color_map = {
         '0 Variabel': 'royalblue',
+        '1 Variabel': 'mediumorchid',
         '10 Variabel': 'deeppink',
         '51 Variabel': 'forestgreen'
     }
@@ -604,6 +606,8 @@ if st.session_state.comparative_data and st.session_state.comparative_data.keys(
                 'Rainfall (Ground Truth)': 'saddlebrown', 'ch_pred (0 Variabel)': 'royalblue', 
                 'error_bias (0 Variabel)': 'darkblue', 'absolute_error (0 Variabel)': 'midnightblue', 
                 'squared_error (0 Variabel)': 'navy', 'ch_pred (10 Variabel)': 'deeppink', 
+                'error_bias (1 Variabel)': 'darkorchid', 'absolute_error (1 Variabel)': 'mediumorchid', 
+                'squared_error (1 Variabel)': 'orchid', 'ch_pred (1 variabel)': 'mediumorchid',
                 'error_bias (10 Variabel)': 'darkred', 'absolute_error (10 Variabel)': 'crimson', 
                 'squared_error (10 Variabel)': 'indianred', 'ch_pred (51 Variabel)': 'forestgreen', 
                 'error_bias (51 Variabel)': 'darkgreen', 'absolute_error (51 Variabel)': 'seagreen', 
