@@ -306,8 +306,8 @@ def plot_comparative_charts_monthly(tahun_start: int, bulan_start: int, tahun_en
 
     # --- Plot Scatter Plot (Matplotlib) ---
     
-    # Tentukan layout plot: 3 kolom untuk 3 model
-    fig_scatter, axes = plt.subplots(1, 3, figsize=(18, 6)) # 1 baris, 3 kolom
+    # Tentukan layout plot: 4 kolom untuk 4 model
+    fig_scatter, axes = plt.subplots(1, 4, figsize=(24, 6)) # 1 baris, 3 kolom
     plt.style.use('ggplot')
     
     scatter_color_map = {
