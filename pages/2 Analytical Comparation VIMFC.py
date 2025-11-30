@@ -23,7 +23,7 @@ base_url_padanan = "data/10k_epoch/padanan"
 # Info dataset yang akan dibandingkan
 dataset_info = {
     "0 Variabel": {"folder": "0_var", "prefix": "all_data_0var"},
-    "1 Variabel": {"folder": "1_var", "prefix": "all_data_1var"},
+    "1 Variabel": {"folder": "1_var", "prefix": "all_data_1var_vimfc"},
     "10 Variabel": {"folder": "10_var", "prefix": "all_data_10var"},
     "51 Variabel": {"folder": "51_var", "prefix": "all_data_51var"},
 }
